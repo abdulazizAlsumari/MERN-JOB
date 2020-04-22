@@ -4,7 +4,7 @@ import Input from './Input';
 const Form = (props)=>{
     return(
         <form onSubmit={props.handler}>
-            <h4>{props.isEditForm ? "Editing Employee: " : "Add Employee: "}</h4>
+            {/* <h4>{props.isEditForm ? "Editing Employee: " : "Add Employee: "}</h4>
             <div className="form-group">
                 <Input name="firstName"
                        placeholder="Enter First Name"
@@ -27,7 +27,7 @@ const Form = (props)=>{
                         handleChange={props.handleChange}
                         value={props.employee.salary}/>
             </div>
-            <button type="submit" className="btn btn-primary">Submit</button>
+            <button type="submit" className="btn btn-primary">Submit</button> */}
         </form> 
     )
 }

@@ -7,6 +7,8 @@ app.use(bodyParser.json());
 
 //routes
 const employee = require('./routes/employee');
+const jahez = require('./routes/jahez');
+app.use('/jahez',jahez);
 app.use('/employee',employee);
 
 if(process.env.NODE_ENV === 'production'){
